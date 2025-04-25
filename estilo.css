@@ -1,0 +1,98 @@
+/*Unidade de medida absoluta*/
+.container {
+    display: flex;
+    background-color: aqua;
+    color: blue;
+    flex-wrap: wrap;
+    
+    /*align-items: center;baseline; center, flex-end, flex-start, stretch, */
+    flex-direction: row;
+    /*height: 800px;*/
+
+}
+aside {
+    flex: 0.3;
+    color: #000;
+    
+
+}
+main {
+    flex: 0.7;
+    color: #000;
+}
+header {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(95, 118, 121);
+    color: white;
+    
+}
+main {
+    border: 1px solid;
+    /*width: 100px;*/
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    background-color: white;
+}
+
+aside {
+    border: 1px solid;
+    /*width: 100px;*/
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    background-color: white;
+}
+/*id menu do aside aplicando diretamente na lista(ul) #menu > ul*/
+#menu > ul {
+    list-style: none;
+}
+/*id menu do aside aplicando diretamente no link (a) #menu a*/
+#menu a {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(95, 118, 121);
+    color: white;
+
+}
+#info img {
+    
+    border-radius: 30px;
+}
+
+/*permite estilizar de acordo o tamanho da tela*/
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+    }
+
+    div {
+        font-weight: bold;
+    }
+    
+}
+
+/*Unidade de medida relativa ao tamanho do elemento raiz (html)*/
+
+
+/*Unidade de medida relativa ao tamanho do elemento pai*/
+
+
+
+
+/*Unidade de medida para desenvolvimento web
+Absolutas: 
+- px, cm, mm;
+
+Relativas:
+- percentual, rem (root),  em (pai), vw (largura do viewport), vh (altura do viewport)
+*/
+
+
+
